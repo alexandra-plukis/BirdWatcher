@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A801F40A244FCDD5007BF22C /* LogUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A801F409244FCDD4007BF22C /* LogUITextView.swift */; };
+		A806A5BA243A3A9E00EA3EF5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A806A5B9243A3A9E00EA3EF5 /* MapViewController.swift */; };
+		A86BD6BE244FE7A800BD1829 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = A86BD6BD244FE7A800BD1829 /* bird.png */; };
+		A89FF08E24390C8B001EE5C1 /* BirdEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF08C24390C8B001EE5C1 /* BirdEntity+CoreDataClass.swift */; };
+		A89FF09124390EFA001EE5C1 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89FF09024390EFA001EE5C1 /* Bird.swift */; };
+		A8D49F3E2427B78E00D545D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49F3D2427B78E00D545D6 /* AppDelegate.swift */; };
+		A8D49F402427B78E00D545D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49F3F2427B78E00D545D6 /* ViewController.swift */; };
+		A8D49F432427B78E00D545D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F412427B78E00D545D6 /* Main.storyboard */; };
+		A8D49F462427B78E00D545D6 /* BirdWatcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8D49F442427B78E00D545D6 /* BirdWatcher.xcdatamodeld */; };
+		A8D49F482427B79100D545D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F472427B79100D545D6 /* Assets.xcassets */; };
+		A8D49F4B2427B79100D545D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F492427B79100D545D6 /* LaunchScreen.storyboard */; };
+		A8D49F552427B7F100D545D6 /* logo_birdWatcher.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F522427B7F100D545D6 /* logo_birdWatcher.png */; };
+		A8D49F562427B7F100D545D6 /* logo_binoculars.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F532427B7F100D545D6 /* logo_binoculars.png */; };
+		A8D49F592427BA4E00D545D6 /* logo_birdWatcherSquareSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F582427BA4E00D545D6 /* logo_birdWatcherSquareSmall.png */; };
+		A8D49F5B2427BC2000D545D6 /* logo_birdWatcherTest.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F5A2427BC2000D545D6 /* logo_birdWatcherTest.png */; };
+		A8D49F5D2427BDB200D545D6 /* RoundUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49F5C2427BDB200D545D6 /* RoundUIButton.swift */; };
+		A8D49F602427C77700D545D6 /* Mindflyers-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F5F2427C77600D545D6 /* Mindflyers-Regular.otf */; };
+		A8D49F662427CD0800D545D6 /* Oxygen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F642427CD0700D545D6 /* Oxygen-Bold.ttf */; };
+		A8D49F672427CD0800D545D6 /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F652427CD0700D545D6 /* Oxygen-Regular.ttf */; };
+		A8D49F692427CE9900D545D6 /* BirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49F682427CE9900D545D6 /* BirdTableViewCell.swift */; };
+		A8D49F6B2427D12800D545D6 /* logo_birdsteps.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D49F6A2427D12800D545D6 /* logo_birdsteps.png */; };
+		A8D49F6E2428119500D545D6 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49F6D2428119500D545D6 /* AddViewController.swift */; };
+		A8D49F70242811E200D545D6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D49F6F242811E200D545D6 /* DetailViewController.swift */; };
+		A8E3294E242919FA00153336 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3294D242919FA00153336 /* LogViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A801F409244FCDD4007BF22C /* LogUITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogUITextView.swift; sourceTree = "<group>"; };
+		A806A5B9243A3A9E00EA3EF5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A86BD6BD244FE7A800BD1829 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		A89FF08C24390C8B001EE5C1 /* BirdEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BirdEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A89FF09024390EFA001EE5C1 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		A8D49F3A2427B78E00D545D6 /* BirdWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D49F3D2427B78E00D545D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8D49F3F2427B78E00D545D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8D49F422427B78E00D545D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8D49F452427B78E00D545D6 /* BirdWatcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdWatcher.xcdatamodel; sourceTree = "<group>"; };
+		A8D49F472427B79100D545D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8D49F4A2427B79100D545D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8D49F4C2427B79100D545D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D49F522427B7F100D545D6 /* logo_birdWatcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_birdWatcher.png; sourceTree = "<group>"; };
+		A8D49F532427B7F100D545D6 /* logo_binoculars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_binoculars.png; sourceTree = "<group>"; };
+		A8D49F582427BA4E00D545D6 /* logo_birdWatcherSquareSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_birdWatcherSquareSmall.png; sourceTree = "<group>"; };
+		A8D49F5A2427BC2000D545D6 /* logo_birdWatcherTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_birdWatcherTest.png; sourceTree = "<group>"; };
+		A8D49F5C2427BDB200D545D6 /* RoundUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundUIButton.swift; sourceTree = "<group>"; };
+		A8D49F5F2427C77600D545D6 /* Mindflyers-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mindflyers-Regular.otf"; sourceTree = "<group>"; };
+		A8D49F642427CD0700D545D6 /* Oxygen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Bold.ttf"; sourceTree = "<group>"; };
+		A8D49F652427CD0700D545D6 /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
+		A8D49F682427CE9900D545D6 /* BirdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdTableViewCell.swift; sourceTree = "<group>"; };
+		A8D49F6A2427D12800D545D6 /* logo_birdsteps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_birdsteps.png; sourceTree = "<group>"; };
+		A8D49F6D2428119500D545D6 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A8D49F6F242811E200D545D6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A8E3294D242919FA00153336 /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D49F372427B78E00D545D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A806A5BB243A3AA500EA3EF5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A806A5B9243A3A9E00EA3EF5 /* MapViewController.swift */,
+				A8D49F3F2427B78E00D545D6 /* ViewController.swift */,
+				A8E3294D242919FA00153336 /* LogViewController.swift */,
+				A8D49F6F242811E200D545D6 /* DetailViewController.swift */,
+				A8D49F6D2428119500D545D6 /* AddViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A8D49F312427B78E00D545D6 = {
+			isa = PBXGroup;
+			children = (
+				A8D49F3C2427B78E00D545D6 /* BirdWatcher */,
+				A8D49F3B2427B78E00D545D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D49F3B2427B78E00D545D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49F3A2427B78E00D545D6 /* BirdWatcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D49F3C2427B78E00D545D6 /* BirdWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49F612427C77D00D545D6 /* Fonts */,
+				A8D49F6C2427D19200D545D6 /* Photos */,
+				A8D49F5E2427C6D000D545D6 /* UIExtensions */,
+				A806A5BB243A3AA500EA3EF5 /* ViewControllers */,
+				A89FF08C24390C8B001EE5C1 /* BirdEntity+CoreDataClass.swift */,
+				A89FF09024390EFA001EE5C1 /* Bird.swift */,
+				A8D49F3D2427B78E00D545D6 /* AppDelegate.swift */,
+				A8D49F412427B78E00D545D6 /* Main.storyboard */,
+				A8D49F492427B79100D545D6 /* LaunchScreen.storyboard */,
+				A8D49F472427B79100D545D6 /* Assets.xcassets */,
+				A8D49F4C2427B79100D545D6 /* Info.plist */,
+				A8D49F442427B78E00D545D6 /* BirdWatcher.xcdatamodeld */,
+			);
+			path = BirdWatcher;
+			sourceTree = "<group>";
+		};
+		A8D49F5E2427C6D000D545D6 /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49F5C2427BDB200D545D6 /* RoundUIButton.swift */,
+				A8D49F682427CE9900D545D6 /* BirdTableViewCell.swift */,
+				A801F409244FCDD4007BF22C /* LogUITextView.swift */,
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		A8D49F612427C77D00D545D6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49F642427CD0700D545D6 /* Oxygen-Bold.ttf */,
+				A8D49F652427CD0700D545D6 /* Oxygen-Regular.ttf */,
+				A8D49F5F2427C77600D545D6 /* Mindflyers-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A8D49F6C2427D19200D545D6 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				A8D49F582427BA4E00D545D6 /* logo_birdWatcherSquareSmall.png */,
+				A8D49F522427B7F100D545D6 /* logo_birdWatcher.png */,
+				A8D49F6A2427D12800D545D6 /* logo_birdsteps.png */,
+				A86BD6BD244FE7A800BD1829 /* bird.png */,
+				A8D49F5A2427BC2000D545D6 /* logo_birdWatcherTest.png */,
+				A8D49F532427B7F100D545D6 /* logo_binoculars.png */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D49F392427B78E00D545D6 /* BirdWatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D49F4F2427B79100D545D6 /* Build configuration list for PBXNativeTarget "BirdWatcher" */;
+			buildPhases = (
+				A8D49F362427B78E00D545D6 /* Sources */,
+				A8D49F372427B78E00D545D6 /* Frameworks */,
+				A8D49F382427B78E00D545D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdWatcher;
+			productName = BirdWatcher;
+			productReference = A8D49F3A2427B78E00D545D6 /* BirdWatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D49F322427B78E00D545D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alexandra Plukis";
+				TargetAttributes = {
+					A8D49F392427B78E00D545D6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A8D49F352427B78E00D545D6 /* Build configuration list for PBXProject "BirdWatcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8D49F312427B78E00D545D6;
+			productRefGroup = A8D49F3B2427B78E00D545D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D49F392427B78E00D545D6 /* BirdWatcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D49F382427B78E00D545D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D49F602427C77700D545D6 /* Mindflyers-Regular.otf in Resources */,
+				A8D49F672427CD0800D545D6 /* Oxygen-Regular.ttf in Resources */,
+				A86BD6BE244FE7A800BD1829 /* bird.png in Resources */,
+				A8D49F562427B7F100D545D6 /* logo_binoculars.png in Resources */,
+				A8D49F4B2427B79100D545D6 /* LaunchScreen.storyboard in Resources */,
+				A8D49F5B2427BC2000D545D6 /* logo_birdWatcherTest.png in Resources */,
+				A8D49F6B2427D12800D545D6 /* logo_birdsteps.png in Resources */,
+				A8D49F482427B79100D545D6 /* Assets.xcassets in Resources */,
+				A8D49F552427B7F100D545D6 /* logo_birdWatcher.png in Resources */,
+				A8D49F592427BA4E00D545D6 /* logo_birdWatcherSquareSmall.png in Resources */,
+				A8D49F662427CD0800D545D6 /* Oxygen-Bold.ttf in Resources */,
+				A8D49F432427B78E00D545D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D49F362427B78E00D545D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D49F5D2427BDB200D545D6 /* RoundUIButton.swift in Sources */,
+				A8D49F402427B78E00D545D6 /* ViewController.swift in Sources */,
+				A8D49F6E2428119500D545D6 /* AddViewController.swift in Sources */,
+				A8E3294E242919FA00153336 /* LogViewController.swift in Sources */,
+				A8D49F692427CE9900D545D6 /* BirdTableViewCell.swift in Sources */,
+				A89FF09124390EFA001EE5C1 /* Bird.swift in Sources */,
+				A806A5BA243A3A9E00EA3EF5 /* MapViewController.swift in Sources */,
+				A8D49F3E2427B78E00D545D6 /* AppDelegate.swift in Sources */,
+				A89FF08E24390C8B001EE5C1 /* BirdEntity+CoreDataClass.swift in Sources */,
+				A8D49F462427B78E00D545D6 /* BirdWatcher.xcdatamodeld in Sources */,
+				A801F40A244FCDD5007BF22C /* LogUITextView.swift in Sources */,
+				A8D49F70242811E200D545D6 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8D49F412427B78E00D545D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D49F422427B78E00D545D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8D49F492427B79100D545D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D49F4A2427B79100D545D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D49F4D2427B79100D545D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8D49F4E2427B79100D545D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8D49F502427B79100D545D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TD9J83G2A;
+				INFOPLIST_FILE = BirdWatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aplukis.BirdWatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8D49F512427B79100D545D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TD9J83G2A;
+				INFOPLIST_FILE = BirdWatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = aplukis.BirdWatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D49F352427B78E00D545D6 /* Build configuration list for PBXProject "BirdWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D49F4D2427B79100D545D6 /* Debug */,
+				A8D49F4E2427B79100D545D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D49F4F2427B79100D545D6 /* Build configuration list for PBXNativeTarget "BirdWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D49F502427B79100D545D6 /* Debug */,
+				A8D49F512427B79100D545D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8D49F442427B78E00D545D6 /* BirdWatcher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8D49F452427B78E00D545D6 /* BirdWatcher.xcdatamodel */,
+			);
+			currentVersion = A8D49F452427B78E00D545D6 /* BirdWatcher.xcdatamodel */;
+			path = BirdWatcher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8D49F322427B78E00D545D6 /* Project object */;
+}
